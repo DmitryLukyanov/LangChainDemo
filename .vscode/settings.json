@@ -1,0 +1,13 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
+  "python.terminal.activateEnvironment": true,
+  "terminal.integrated.env.windows": {
+    "PYTHONUTF8": "1"
+  },
+  "terminal.integrated.env.linux": {
+    "PYTHONUTF8": "1"
+  },
+  "terminal.integrated.env.osx": {
+    "PYTHONUTF8": "1"
+  }
+}

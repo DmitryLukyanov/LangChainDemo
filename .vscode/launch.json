@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "PDF QA (debug)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/pdf_processor.py",
+      "args": ["${workspaceFolder}/docs/test.pdf", "--rebuild"],
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
